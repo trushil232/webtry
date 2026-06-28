@@ -1,8 +1,9 @@
+cat << 'EOF' > package.json
 {
   "name": "portfolio-3d",
   "version": "0.1.0",
   "private": true,
-"scripts": {
+  "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -11,20 +12,22 @@
   "dependencies": {
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^8.17.10",
-    "framer-motion": "^12.42.0",
-    "lucide-react": "^1.22.0",
-    "maath": "^0.10.8",
-    "next": "^16.2.9",
-    "react": "^18",
-    "react-dom": "^18",
-    "three": "^0.185.0"
+    "framer-motion": "^11.0.0",
+    "lucide-react": "^0.300.0",
+    "maath": "^0.10.0",
+    "next": "^14.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.160.0"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "autoprefixer": "^10.0.0",
+    "postcss": "^8.0.0",
+    "tailwindcss": "^3.0.0",
+    "typescript": "^5.0.0"
   }
 }
+EOF
