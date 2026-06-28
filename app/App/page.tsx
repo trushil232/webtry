@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Terminal, Cpu, Briefcase, GraduationCap, Sparkles, Send, Github } from 'lucide-react';
-import Scene3D from '@/components/Scene3D';
+import Scene3D from './components/Scene3D';
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState('experience');
